@@ -11,7 +11,16 @@ body {
 
 $color-1: #21c2f8;
 $color-2: #fff;
-$color-3: #000;
+$color-3: #222533;
+
+$color-4: #f39704;
+$color-5: #e35611;
+$color-6: #9a2c49;
+$color-7: #97c200;
+$color-8: #3d4c53;
+$color-9: #61a783;
+$color-10: #f72f54;
+$color-11: #8fc567;
 
 .row {
   margin: 50px 0px 0px 50px;
@@ -53,18 +62,55 @@ $color-3: #000;
     padding: 25px 99px 28px 102px;
   }
 
-  &.round{
-    &-3{
+  &.round {
+    &-3 {
       border-radius: 3px;
     }
-    &-7{
-        border-radius: 7px;
+    &-7 {
+      border-radius: 7px;
     }
-    &-12{
-        border-radius: 12px;
+    &-12 {
+      border-radius: 12px;
     }
-    &-20{
-        border-radius: 20px;
+    &-20 {
+      border-radius: 20px;
+    }
+  }
+  &.bg-color {
+    &-1 {
+      background-color: $color-1;
+    }
+    &-2 {
+      background-color: $color-2;
+    }
+    &-3 {
+      background-color: $color-3;
+    }
+    &-4 {
+      background-color: $color-4;
+    }
+    &-5 {
+      background-color: $color-5;
+    }
+    &-6 {
+      background-color: $color-6;
+    }
+    &-7 {
+      background-color: $color-7;
+    }
+    &-8 {
+      background-color: $color-8;
+    }
+    &-9 {
+      background-color: $color-9;
+    }
+    &-10 {
+      background-color: $color-10;
+    }
+    &-11 {
+      background-color: $color-11;
     }
   }
 }
+
+
