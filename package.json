@@ -6,7 +6,7 @@
   "author": "Andrii Mulyk <amulyk@lectrum.io>",
   "license": "MIT",
   "scripts": {
-    "server": "light-server -s ./dist/",
+    "server": "light-server -s -w dist/*.css,dist/*.html # # reload ./dist/",
     "development": "gulp"
   },
   "devDependencies": {

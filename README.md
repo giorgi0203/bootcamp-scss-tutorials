@@ -12,5 +12,7 @@
 
 `npm run server`
 
+# Scope
+`1-Preprocessing-Fundamentals`
 *Please run all commands in separate console windows*.
 
