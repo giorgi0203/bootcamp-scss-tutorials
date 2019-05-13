@@ -1,115 +1,134 @@
 @import './components/header/index.scss';
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
-$color-1: #21c2f8;
-$color-2: #fff;
+$color-1: #21C2F8;
+$color-2: #FFFFFF;
 $color-3: #222533;
 
-$color-4: #f39704;
-$color-5: #e35611;
-$color-6: #9a2c49;
-$color-7: #97c200;
-$color-8: #3d4c53;
-$color-9: #61a783;
-$color-10: #f72f54;
-$color-11: #8fc567;
+$color-4: #F39704;
+$color-5: #E35611;
+$color-6: #9A2C49;
+$color-7: #97C200;
+$color-8: #3D4C53;
+$color-9: #61A783;
+$color-10: #F72F54;
+$color-11: #8FC567;
 
 .row {
-  margin: 50px 0px 0px 50px;
-  display: flex;
-  align-items: flex-end;
-  .btn {
-    margin-right: 31px;
-    &:last-child {
-      margin-right: 0px;
-    }
-  }
+    display: flex;
+    align-items: flex-end;
+    margin: 50px 0 0 50px;
 }
 
 .btn {
-  cursor: pointer;
-  background-color: $color-1;
-  color: $color-2;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 14px;
-  padding: 11px 37px;
-  border: none;
+    margin-right: 31px;
+    padding: 11px 37px;
+    border: none;
+    background-color: $color-1;
+    color: $color-2;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
 
-  &.medium {
-    font-size: 18px;
-    padding: 14px 46px;
-  }
-  &.large {
-    font-size: 26px;
-    padding: 23px 93px 23px 94px;
-  }
-  &.x-large {
-    font-size: 36px;
-    padding: 25px 99px 28px 102px;
-  }
+    &:last-child {
+        margin-right: 0;
+    }
 
-  &.round {
-    &-3 {
-      border-radius: 3px;
+    &.medium {
+        padding: 14px 46px;
+        font-size: 18px;
     }
-    &-7 {
-      border-radius: 7px;
+
+    &.large {
+        padding: 23px 93px 23px 94px;
+        font-size: 26px;
     }
-    &-12 {
-      border-radius: 12px;
+
+    &.x-large {
+        padding: 25px 99px 28px 102px;
+        font-size: 36px;
     }
-    &-20 {
-      border-radius: 20px;
+
+    &.round {
+
+        &-3 {
+            border-radius: 3px;
+        }
+
+        &-7 {
+            border-radius: 7px;
+        }
+
+        &-12 {
+            border-radius: 12px;
+        }
+
+        &-20 {
+            border-radius: 20px;
+        }
     }
-  }
-  &.bg-color {
-    &-1 {
-      background-color: $color-1;
+
+    &.bg-color {
+
+        &-1 {
+            background-color: $color-1;
+        }
+
+        &-2 {
+            background-color: $color-2;
+        }
+
+        &-3 {
+            background-color: $color-3;
+        }
+
+        &-4 {
+            background-color: $color-4;
+        }
+
+        &-5 {
+            background-color: $color-5;
+        }
+
+        &-6 {
+            background-color: $color-6;
+        }
+
+        &-7 {
+            background-color: $color-7;
+        }
+
+        &-8 {
+            background-color: $color-8;
+        }
+
+        &-9 {
+            background-color: $color-9;
+        }
+
+        &-10 {
+            background-color: $color-10;
+        }
+
+        &-11 {
+            background-color: $color-11;
+        }
     }
-    &-2 {
-      background-color: $color-2;
+
+    &:hover {
+        background-color: $color-3;
     }
-    &-3 {
-      background-color: $color-3;
-    }
-    &-4 {
-      background-color: $color-4;
-    }
-    &-5 {
-      background-color: $color-5;
-    }
-    &-6 {
-      background-color: $color-6;
-    }
-    &-7 {
-      background-color: $color-7;
-    }
-    &-8 {
-      background-color: $color-8;
-    }
-    &-9 {
-      background-color: $color-9;
-    }
-    &-10 {
-      background-color: $color-10;
-    }
-    &-11 {
-      background-color: $color-11;
-    }
-  }
-  &:hover {
-    background-color: $color-3;
-  }
 }
