@@ -18,18 +18,15 @@
     }
 
     &.medium {
-        padding: 14px 46px;
-        font-size: 18px;
+        @include size(18px, 14px, 46px, 27px, 102px);
     }
 
     &.large {
-        padding: 23px 93px 23px 94px;
-        font-size: 26px;
+        @include size(26px, 23px, 93px, 23px, 94px);
     }
 
     &.x-large {
-        padding: 25px 99px 28px 102px;
-        font-size: 36px;
+        @include size(36px, 25px, 99px, 28px, 102px);
     }
 
     &.round {
