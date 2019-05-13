@@ -1,15 +1,5 @@
-@import './reset.scss';
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-}
+@import './reset';
+@import './base';
 
 $color-1: #21C2F8;
 $color-2: #FFFFFF;
